@@ -5,13 +5,15 @@
   border-radius: 0 !important;
 }
 
-body {
+html, body {
   background: #363636;
   font-family: "Roboto", sans-serif;
+  height: 100%;
 }
 
 .container {
   max-width: 900px;
+  min-height: 100%;
 }
 
 .navigation {
@@ -36,18 +38,20 @@ body {
 }
 
 .navigation .nav li:last-child	{
-	margin-right: 250px;
+	margin-right: 20%;
 }
 
 .jumbotron {
   padding-top: 125px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 60px;
   max-width: 900px;
   background: #cfcfcf;
   border-left: 4px solid #828282;
   border-right: 4px solid #828282;
   border-bottom: 4px solid #828282;
+  overflow: auto;
 }
 
 .wespic {
@@ -82,6 +86,10 @@ hr {
 footer {
   background: black;
   border-top: 5px solid #4f3838;
+  position: relative;
+  margin-top: -50px;
+  height: 50px;
+  clear:both;
 }
 
 .social {
@@ -126,6 +134,9 @@ footer {
 .navigation .nav {
   text-align: center;
 }
+.navigation .nav li {
+  margin: 0 5px 0 5px;
+}
 
 .navigation .nav li:last-child	{
 	margin-right: 0px;
@@ -139,3 +150,9 @@ footer {
 	max-width: 50%;
 }
     }
+	
+@media only screen and (min-width : 1900px) {
+.navigation .nav li:last-child	{
+	margin-right: 30%;
+}
+}
