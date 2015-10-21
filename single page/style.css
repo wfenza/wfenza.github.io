@@ -1,0 +1,158 @@
+
+* {
+  -webkit-border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  border-radius: 0 !important;
+}
+
+html, body {
+  background: #363636;
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+
+.container {
+  max-width: 900px;
+  min-height: 100%;
+}
+
+.navigation {
+  background: black;
+  position: absolute;
+  margin-top: 50px;
+  width: 100%;
+  border-top: 2px solid black;
+  border-bottom: 3px solid #4f3838;
+}
+
+.navigation .nav {
+  text-align: right;
+}
+
+.navigation .nav li {
+  font-size: 1.2em !important;
+  float: none;
+  display: inline-block;
+  color: #eaeaea;
+  margin-right: 20px;
+}
+
+.navigation .nav li:last-child	{
+	margin-right: 20%;
+}
+
+.jumbotron {
+  padding-top: 125px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  max-width: 900px;
+  background: #cfcfcf;
+  border-left: 4px solid #828282;
+  border-right: 4px solid #828282;
+  border-bottom: 4px solid #828282;
+  overflow: auto;
+}
+
+.wespic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 360px;
+  border: 1px solid #888888;
+}
+
+.nameheader, .jobtitle {
+  text-align: center;
+}
+
+.nameheader {
+  font-family: "Microsoft Uighur", Aparajita, sans-serif;
+  font-size: 4em !important;
+  margin: 2px;
+}
+
+.jobtitle {
+  font-size: 1.5em !important;
+  margin: 2px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+footer {
+  background: black;
+  border-top: 5px solid #4f3838;
+  position: relative;
+  margin-top: -50px;
+  height: 50px;
+  clear:both;
+}
+
+.social {
+  padding: 5px;
+}
+
+.social i {
+  width: 35px;
+  height: 35px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 8px;
+  transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  -ms-transition: all ease 0.2s;
+}
+
+.social i:hover {
+  color: white;
+  text-decoration: none;
+  transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -webkit-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  -ms-transition: all ease 0.2s;
+}
+
+.social .fa-linkedin {
+  background: rgba(0, 148, 188, 0.6);
+}
+
+.social .fa-linkedin:hover {
+  background: #0094bc;
+}
+
+/*--Responsive CSS--------------------------------------------------------------------*/
+@media only screen and (max-width : 768px) {
+
+.navigation .nav {
+  text-align: center;
+}
+.navigation .nav li {
+  margin: 0 5px 0 5px;
+}
+
+.navigation .nav li:last-child	{
+	margin-right: 0px;
+}
+
+.jumbotron p	{
+	margin: 10px;
+}
+
+.wespic	{
+	max-width: 50%;
+}
+    }
+	
+@media only screen and (min-width : 1900px) {
+.navigation .nav li:last-child	{
+	margin-right: 30%;
+}
+}

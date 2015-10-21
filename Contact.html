@@ -14,6 +14,12 @@
 		<link rel="icon" type="image/jpg" href="images/scales.png">
 		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		  <style type="text/css">
+			span.redirect { 
+			unicode-bidi:bidi-override; 
+			direction: rtl; 
+			}
+		  </style>
 	</head>
 	<body>	
 		<nav class="navbar navbar-inverse navbar-custom">
@@ -55,15 +61,14 @@
 	</nav>
 	<div class="container">
 		<div class="jumbotron">
-			<img  class="wespic" src="images/wesfenza.jpg" alt="Picture of Wes Fenza in a suit and tie">
 			<h1 class="nameheader">Wesley Fenza</h1>
 			<h2 class="jobtitle">Attorney At Law</h2>
 			<hr>
-			<p>Fenza Legal Services is a full-service law firm specializing in litigation. Our goal is to keep costs low and transparent while providing a level of personal service that larger firms are unable to match. Visit my <a href="Practice.html">transparent pricing page</a> to see exactly what you’ll be charged, and <a href="Contact.html">contact me</a> with any legal questions that you have.</p>
-			<p>Consultations are always free, and can be done over the telephone or video chat. You may also feel free to <a href="Contact.html">email</a> any questions that you have.</p>
-			<div class="testimonial">
-			<blockquote class="blockquote-reverse"><p>Wesley Fenza is quick to respond to requests and is extremely detailed.  He explains complicated legal ideas clearly to help me make my own decisions. His advice has been incredibly valuable to my business. When I am faced with new legal challenges, I contact Wesley Fenza.”</p></blockquote>
-			</div><!--testimonials-->
+			<div class="contact">
+				<p><strong>Phone Number:</strong> (8<span style="display: none">24234</span>56)477-3756</p>
+				<p><strong>Email:</strong> <span class="redirect">moc.liamg<span style="display: none">null</span>@<span style="display: none">null</span>walaznef</span></p>	
+				<p><strong>Address:</strong> 970 Haddon Ave #13, Collingswood, NJ 08108</p>
+			</div>
 		</div><!--jumbotron-->
 	</div><!--container-->
 	
@@ -75,6 +80,7 @@
 			<p>&copy; 2015 Wes Fenza</p>
 		</div><!--container-->
     </footer>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	</body>
